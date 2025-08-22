@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login ↔ Sign Up Flip</title>
+  <link rel="stylesheet" href="regi_login.css">
+</head>
+<body>
+      <div class="frame">
+         <!-- Flip toggle -->
+         <input type="checkbox" id="flip-toggle">
+
+           <!-- Card -->
+         <div class="card">
+
+               <div class="face front ">
+                         <h2>Login</h2>
+                     <form id="loginForm">
+                      <div class="form-group">
+                         <label for="username">Username:</label>
+                         <input type="text" id="username" required>
+                         </div>
+                        <div class="form-group">
+                         <label for="password">Password:</label>
+                         <input type="password" id="password" required>
+                         </div>
+                         <div >
+                         <button type="submit" class="btn">Login</button>
+                         </div>
+                         <div class="link">
+                         <label for="flip-toggle" class="link">Don't have an account? <label for="flip-toggle" class="link1"> Sign Up</label> </label>
+                         </div>
+                         <div class="a">
+                          <a href="frist_page.html" class="button-link">Cancel</a>
+                         </div>
+                      </form>
+                         
+                </div>
+                     <script src="script.js"></script>
+
+             <!-- Login Page -->
+              <div class="face back">
+                  <h2>User Registration</h2>
+                    <form action="#" method="post">
+
+                     <div class="form-group">
+                         <label>First Name</label>
+                         <input type="text" required>
+                     </div>
+
+                     <div class="form-group">
+                         <label>Last Name</label>
+                         <input type="text" required>
+                     </div>
+
+                     <div class="form-group">
+                         <label>Username</label>
+                         <input type="text" required>
+                     </div>
+
+                     <div class="form-group">
+                         <label>Email</label>
+                         <input type="email" required>
+                     </div>
+
+                     <div class="form-group">
+                         <label>Phone Number</label>
+                         <input type="text" required>
+                     </div>
+
+                     <div class="form-group">
+                             <label>Gender</label>
+                          <select required>
+                             <option value="">Select</option>
+                             <option value="male">Male</option>
+                             <option value="female">Female</option>
+                             <option value="other">Other</option>
+                         </select>
+                     </div>
+
+                     <div class="form-group">
+                         <label>Password</label>
+                         <input type="password" required>
+                     </div>
+
+                     <div class="form-group">
+                          <label>Confirm Password</label>
+                         <input type="password" required>
+                     </div>
+
+                     <div class="form-buttons">
+                         <button type="reset" class="clear-btn">Clear All</button>
+                        <label for="flip-toggle" class="login-link">Already SignUp!!  <label for="flip-toggle" class="login-link1"> Login here</label></label>
+                     </div>
+
+                         <button type="submit" class="submit-btn">SIGN UP ➤</button>
+                  </form>
+             </div>
+
+                         <!-- Sign Up Page -->
+                     
+             </div>
+      </div>
+</body>
+</html>

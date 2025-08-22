@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e2e;
+    padding: 10px 40px;
+}
+
+.nav-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    /*text-align: center;*/
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Welcome Section */
+.welcome {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0b0b0b;
+    padding: 8px 0;
+    margin-bottom: 10px;
+
+}
+
+.welcome-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 40px;
+}
+
+.guidelines:hover {
+    background-color: #df1507;
+}
+
+.guidelines p:hover {
+    background-color: #ffffff;
+}
+
+.toggle-btn:hover {
+    background-color: #a1f84b;
+}
+
+
+.toggle-btn {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: #ddd;
+    width: 70%;
+    margin: 0 auto 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.guidelines {
+  display: none;
+  background: #a8a7a7;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.guidelines p {
+  background: #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+    padding: 15px 0;
+    background-color: #f4f4f4;
+    color: #555;
+    text-align: center;
+}
+
+footer a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+

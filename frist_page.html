@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Complaint System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-title">SMART  COMPLAINT  SYSTEM</div>
+        <ul class="nav-links">
+            <li><a href="login.html">User Login</a></li>
+            <li><a href="registration.html">User Registration</a></li>
+            <li><a href="#">ADMIN</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="complaint_system.png" alt="Complaint Management System">
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+      <div class="welcome-title">Welcome To Online Complaint System</div>
+    </section>
+
+    
+
+    <div class="toggle-btn" onclick="toggleGuidelines()">Click to see guidelines</div>
+
+  <!-- Guidelines box -->
+  <div class="guidelines" id="guidelinesBox">
+    <p>If you want to place complaint first of all register yourself in 
+      <a href="registration.html">User registration</a>
+    </p>
+    <p>After registration Login in to <a href="login.html">User Login</a></p>
+    <p>Then set your personal information. And in complaint section select type and sub type of complaint.</p>
+    <p>After writing your complaint submit your complaint and wait for response on it.</p>
+    <p>You can see your complaint status on your dashboard.</p>
+    <p>If you want to logout there is Logout button at Top-right corner.</p>
+  </div>
+
+  <script>
+    function toggleGuidelines() {
+      var box = document.getElementById("guidelinesBox");
+      var btn = document.querySelector(".toggle-btn");
+      
+      if (box.style.display === "none" || box.style.display === "") {
+        box.style.display = "block";
+        btn.textContent = "Click to hide guidelines";
+      } else {
+        box.style.display = "none";
+        btn.textContent = "Click to see guidelines";
+      }
+    }
+  </script>
+
+    <!-- Footer -->
+    <footer>
+        © 2019 Copyright:
+        <a href="https://pgportal.gov.in/" target="_blank">CPGRAMS-Home</a>
+    </footer>
+
+</body>
+</html>

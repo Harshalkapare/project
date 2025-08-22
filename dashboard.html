@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="ex.css">
+</head>
+<body>
+  <div class="topbar">
+    <h2 id="userName">Welcome, User</h2>
+    <button class="logout" onclick="logout()">LOGOUT</button>
+  </div>
+
+  <div class="sidebar">
+    <div class="profile-pic">
+      <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="User">
+    </div>
+    <button onclick="showContent('dashboard')">Dashboard</button>
+    <button onclick="showContent('complaint')">Complaint</button>
+    <button onclick="showContent('info')">Personal Info</button>
+  </div>
+
+  <div class="content" id="content">
+    <h2>Dashboard</h2>
+    <div class="cards">
+      <div class="card">Pending complaints</div>
+      <div class="card">In progress complaints</div>
+      <div class="card">Completed complaints</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
